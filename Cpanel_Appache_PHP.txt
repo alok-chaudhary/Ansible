@@ -1,0 +1,19 @@
+Home /
+Service Configuration /
+Apache Configuration /
+Global Configuration
+
+
+Server Limit (Maximum: 20,000 )  Change 250 to 8000
+Max Request Workers Change from 150 to 5000
+
+
+
+Home /
+Software /
+MultiPHP INI Editor
+
+upload_max_filesize	The maximum size of an uploaded file.  to 50M
+
+memory_limit   to 512 M
+max_execution_time 120 
