@@ -1,0 +1,5 @@
+It is annoying to setup a newly installed Ubuntu machine, so I wrote a shell script to install my favorite softwares. You can replace the statements with your favorite commands. 🥰
+
+The script automatically installs google-chrome, vscode, openssh-server, docker, autojump. If any target command exists, it will skip installing it like this:
+
+$>./setup.sh
