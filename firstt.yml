@@ -1,0 +1,9 @@
+kind: Pod
+apiVersion: v1
+metadata:
+      name: centpod
+spec:
+  containers:
+     - name: c55
+       image: centos
+       command: ["/bin/bash", "-c", "while true; do echo Hello-Alok; sleep 5 ; done"]
