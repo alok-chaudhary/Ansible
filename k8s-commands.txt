@@ -1,0 +1,9 @@
+kubectl exec testpod -it -c c00 -- /bin/bash
+kubectl apply -f firstnpod.yml
+kubectl exec testpod -it -c c00 -- /bin/bash
+kubectl get pods -o wide
+kubectl get all -A
+kubectl get all
+kubectl logs --tail=20 <pod_name>
+kubectl logs -c c00 testpod
+kubectl exec -it testpod /bin/sh
